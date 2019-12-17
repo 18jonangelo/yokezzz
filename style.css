@@ -1,0 +1,684 @@
+
+
+  body, html {
+  /* height: 100%!important; */
+  overflow: auto !important;
+  max-height: 100% !important;
+
+  }
+.logo-image {
+  width: 100px;
+  overflow: hidden;
+}
+
+
+.headerlogo {
+  font-size: 18px;
+  padding-left: 12px;
+}
+
+.logo-image {
+  width: 130px;
+}
+
+.nav-item {
+  padding: 10px;
+  text-align: right;
+}
+
+.navbar {
+  padding: 100px;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+  color: #ffd800 !important;
+}
+
+.navbar-fixed-top.fixednav {
+  background: #24363d;
+  opacity: 0.3;
+}
+
+
+.slide01 {
+  color: black;
+  position: relative;
+  left: 100px;
+}
+
+.slide1logo {
+  width: 500px;
+}
+
+.carousel-inner>.carousel-item>img {
+  width: 100vh;
+}
+
+.slide001 img {
+  margin-top: 8%;
+}
+
+/*
+.carousel-inner>.carousel-item>.slide002 img {
+  width: 150%;
+min-height: 150%;
+  min-width: 130%;
+
+  margin-left: -10%;
+  background-color: blue !important;
+
+} */
+/*
+.slide002 img{
+  padding: 100px;
+    margin-left: -1%;
+
+    /*   */
+/* .slide003 img {
+
+  width: 100vh;
+padding-top: 7%;
+  margin-left: 3.5%;
+} */
+
+.slide004 img {
+  padding-top: 7%;
+}
+
+.s01 {
+  float: left;
+  margin: 0% 6%;
+  max-height: 25em;
+  padding-top: 11em;
+  position: relative;
+  vertical-align: middle;
+  width: 55%;
+  right: 70px;
+}
+
+
+.foot01 {
+  width: 100%;
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+  /* Resize the background image to cover the entire container */
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.foot2 {
+  width: 100%;
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+  /* Resize the background image to cover the entire container */
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* .slide002{
+width:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+} */
+.works2 {
+  margin-left: 10%
+}
+
+.knowmore img{
+  position: absolute;
+  top:30%;
+  left:-2%;
+  width: 30%;
+}
+.knowmore:hover {
+  opacity: 0.7;
+}
+/* .slide002 img{
+  width: auto;
+  height: 3225px;
+  max-height: 1525px;
+} */
+.foot12 {
+  position: relative;
+  top: 300px;
+}
+
+.aboutimg img {
+  margin-top: -9%;
+  width: 120%;
+  margin-left: -10%;
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+  /* Resize the background image to cover the entire container */
+}
+
+.worksandwin img {
+
+  width: 127%;
+margin-left: -12%;
+margin-top: -7%;
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+  /* Resize the background image to cover the entire container */
+}
+
+.clients1 img {
+  margin-top: 7%;
+  margin-left: -5%;
+  width: 120%;
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+  /* Resize the background image to cover the entire container */
+}
+
+.team img {
+  width: 120%;
+  margin-top: -2%;
+margin-left: -13%;
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+  /* Resize the background image to cover the entire container */
+}
+
+.helloimg img {
+  margin-top: 8%;
+  width: 125%;
+  margin-left: -15%;
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+  /* Resize the background image to cover the entire container */
+}
+
+.thoughtsimg img {
+  width: 130%;
+  margin-top: 5%;
+  margin-left: -10%;
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: contain;
+  /* Resize the background image to cover the entire container */
+}
+
+.foot1 img {
+  width: 100%;
+}
+.carousel{
+  max-height: 900px;
+
+}
+
+
+  .carousel-control-prev{
+  margin-left: -10%;
+
+}
+.footwrap img{
+  display:none;
+}
+.socialmediamob1{
+  display: none;
+}
+
+/* use for phone properties portrait*/
+@media only screen and (min-device-width: 300px) and (max-device-width: 767px)  and (orientation: portrait){
+
+  body, html {
+  /* height: 100%!important; */
+  overflow: auto !important;
+  max-height: 100% !important;
+background-color: #EAC62A !important;
+
+  }
+
+
+#carouselcontainer{
+  display: none;
+}
+
+
+
+  .navbar {
+    padding-right: 20px;
+  }
+  .navbar-toggler{
+    margin-right: 20px;
+
+  }
+  .logos{
+    opacity: 100;
+  }
+  .logostag{
+    opacity: 0;
+  }
+
+    .navwho{
+    margin-right: 20px;
+    }
+
+  .worknav{
+    margin-right: 20px;
+    }
+
+    .clientnav{
+      margin-right: 20px;
+      }
+  .teamnav{
+    margin-right: 20px;
+
+  }
+
+  .hellonav{
+    margin-right: 20px;
+  }
+
+  .thoughtsnav{
+    margin-right: 20px;
+  }
+
+  .nav-item {
+
+    text-align: center;
+  }
+
+  section {
+    padding-bottom: 0;
+    margin-top: 30%;
+
+  }
+
+.clients1 img {
+  display:none;
+}
+  .clients2 img {
+    margin-top: -7%;
+    margin-left: -5%;
+    width: 120%;
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+    /* Resize the background image to cover the entire container */
+  }
+
+
+.footcont img{
+  display: none;
+
+}
+  .footcont{
+    position: absolute;
+    bottom: 0px;
+
+  }
+
+.footwrap img{
+  display:block;
+      background-size: cover;
+    width:110%;
+    max-height: 10%;
+    margin-left:-5%;
+
+
+    }
+
+    .knowmore img{
+      position: absolute;
+      top:8%;
+      left:17%;
+      width: 70%;
+    }
+
+
+  .foot1 img {
+    width: 100%;
+    padding-top: 2px;
+
+  }
+
+  .carousel{
+max-height: 190px;
+
+
+  }
+.carousel-item.slide001{
+  max-height: 420px;
+}
+  .carousel-item {
+  margin-top: -8%;
+    height: 100vh;
+    max-height: 200px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+.carousel{
+  max-height: 700px;
+
+}
+
+  .socialmediamob{
+    display: none;
+}
+
+
+.footermobile{
+
+background-color: #EAC62A !important;
+}
+  .socialmediamob1{
+display: inline-block;
+width:10%;
+width:100vh;
+margin-left: 60px;
+        }
+
+        .socialmediamob1 a{
+
+      margin-left: 10px;
+              }
+
+
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  body, html {
+  /* height: 100%!important; */
+  overflow: auto !important;
+  max-height: 100% !important;
+
+
+  }
+
+  .knowmore img{
+    position: absolute;
+    top:30%;
+    left:-35%;
+    width: 70%;
+  }
+
+  .socialmediamob1{
+    display: none;
+  }
+
+  .socialmediamob1{
+display: inline-block;
+width:5%;
+width:100vh;
+margin-left: 60px;
+        }
+  .navbar {
+    padding-right: 30px;
+    max-width: 100%;
+  }
+  .navhome{
+    margin-right:10px;
+  }
+
+  .navwho{
+  margin-right: 50px;
+  }
+
+.worknav{
+  margin-right: 40px;
+  }
+
+  .clientnav{
+    margin-right: 40px;
+    }
+.teamnav{
+  margin-right: 40px;
+
+}
+
+.hellonav{
+  margin-right: 40px;
+}
+
+.thoughtsnav{
+  margin-right: 40px;
+}
+  .nav-item {
+
+    text-align: center;
+  }
+
+  section {
+    padding-bottom: 0;
+    margin-top: 20%;
+  }
+
+
+  .knowmore img{
+    margin-left: 30%;
+    width: 400px;
+  }
+
+
+  .foot1 img {
+    width: 100%;
+    padding-top: 42px;
+  }
+
+  .carousel-item {
+
+    height: 100vh;
+    max-height: 400px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+}
+
+/*
+ipad pro */
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (orientation: portrait) {
+
+
+    body, html {
+    /* height: 100%!important; */
+    overflow: auto !important;
+    max-height: 100% !important;
+
+
+    }
+
+    .knowmore img{
+      position: absolute;
+      top:20%;
+      left:-35%;
+      width: 50%;
+    }
+
+  .navbar {
+    padding-right: 10px;
+  }
+
+  .navbar-toggler{
+    margin-right: 15px;
+  }
+  .nav-item {
+    padding-right: 10px;
+    text-align: right;
+  }
+
+  section {
+    padding-bottom: 0;
+    margin-top: 10%;
+  }
+
+
+
+  .foot1 img {
+    width: 100%;
+    padding-top: 2px;
+  }
+
+.carousel{
+  max-height: 800px;
+  margin-bottom: -10%;
+}
+  .carousel-item {
+    height: 100vh;
+    max-height: 200px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+
+  }
+
+
+
+
+/* phone
+landscape */
+/* @media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+    } */
+/*
+@media (max-width:1023px) {
+
+
+    body{
+
+    padding-bottom: 0;
+      margin-top: 40%;
+      background-color: blue !important;
+
+    }
+  } */
+/* @media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) { */
+/* @media only screen and (min-width: 1024px) {
+
+
+
+  footer{
+    position: absolute;
+bottom: 0px;
+width: 100%;
+  }
+} */
+/*
+
+@media all and (device-width: 1024px) and (device-height: 768px) and (orientation:landscape) {
+  .ipad-landscape { color: blue; } /* your css rules for ipad landscape */
+/* .carousel-inner &gt; .item &gt; img {
+
+  max-height:160px;
+  object-fit:contain;
+
+  } */
+/*
+
+.worksandwin img{
+  margin-right:auto;s
+      width:106.5%;
+      background-position: center center;
+      background-repeat: no-repeat;
+
+}
+
+.carousel {
+width: auto;
+height:100px;
+margin-top:  100px;
+
+
+}
+
+
+
+.footcont{
+  padding-top: 100px;
+}
+.foot0{
+
+  margin-top: 550px;
+}
+
+
+.foot{
+
+  padding-top: 5px;
+}
+.carousel-control-prev{
+  margin-bottom: 1000px;
+
+}
+.carousel-control-next{
+  margin-bottom: 1000px;
+
+}
+
+
+.carousel-control-right{
+  margin-bottom: 1000px;
+
+}
+
+.footcont{
+
+  margin-top: -400px;
+  margin-bottom: auto;
+  background-color: blue;
+}
+
+.container{
+  background-color: orange;
+} */
+/*
+portrait */
+/*
+
+  .carousel {
+border: solid #ffd800 3px; */
+/* width:65%;
+    width:
+  margin-left: 250px; */
+
+
+@media only screen and (min-device-width: 768px) {
+
+  .clients2{
+    display:none;
+}
+    #carouselcontainer2{
+      display: none;
+  }
+}

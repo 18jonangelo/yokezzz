@@ -1,0 +1,108 @@
+@media only screen
+  and (min-device-width: 300px)
+  and (max-device-width: 900px)
+  and (orientation: landscape) {
+    .carousel-item {
+      height: 100vh;
+      max-height: 500px;
+      background: no-repeat center center scroll;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    }
+    /* .navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse{
+      max-height:200px; */
+
+
+
+.navbar{
+
+max-height: 300px;
+width: 100%;
+overflow-y: scroll;
+-webkit-overflow-scrolling:touch;
+
+}
+
+
+.logo-image{
+
+    width: 70px;
+}
+
+section{
+  margin-top: 8%;
+}
+
+
+
+footer{
+  position: absolute;
+  top:500px;
+}
+
+
+    #carouselcontainer2{
+      display: none;
+}
+.fa {
+
+  padding: 12px;
+  padding-left: -10px;
+  font-size: 5px;
+  max-width: 10px;
+  text-align: center;
+  text-decoration: none;
+  margin-top:5%;
+
+}
+
+  }
+
+
+/*
+ipad */
+
+@media only screen
+  and (min-device-width: 1023px)
+  and (max-device-width: 1370px)
+  and (orientation: landscape) {
+
+.carousel{
+  max-height: 10px;
+}
+
+        .clients2{
+          display:none;
+        }
+    .carousel-item {
+      height: 100vh;
+      max-height: 100px;
+      background: no-repeat center center scroll;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    }
+
+    footer{
+      position: relative;
+      top:750px;
+
+    }
+
+    section{
+
+      margin-top: 2%;
+
+    }
+
+      .clients2 img{
+        display:none;
+    }
+        #carouselcontainer2{
+          display: none;
+      }
+
+}
